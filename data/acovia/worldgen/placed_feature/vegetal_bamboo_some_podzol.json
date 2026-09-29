@@ -24,8 +24,8 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:bamboo",
-          "Properties": {
+          "id": "minecraft:bamboo",
+          "properties": {
             "stage": "0"
           }
         }

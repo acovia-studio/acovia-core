@@ -27,35 +27,35 @@
         "effect": {
           "type": "replace_block",
           "block_state": {
-            "type": "minecraft:weighted_state_provider",
+            "type": "minecraft:weighted",
             "entries": [
               {
                 "data": {
-                  "Name": "minecraft:stone"
+                  "id": "minecraft:stone"
                 },
                 "weight": 40
               },
               {
                 "data": {
-                  "Name": "minecraft:cobblestone"
+                  "id": "minecraft:cobblestone"
                 },
                 "weight": 20
               },
               {
                 "data": {
-                  "Name": "cracked_stone_bricks"
+                  "id": "cracked_stone_bricks"
                 },
                 "weight": 10
               },
               {
                 "data": {
-                  "Name": "mossy_cobblestone"
+                  "id": "mossy_cobblestone"
                 },
                 "weight": 10
               },
               {
                 "data": {
-                  "Name": "stone_bricks"
+                  "id": "stone_bricks"
                 },
                 "weight": 20
               }
@@ -67,12 +67,10 @@
             0
           ]
         },
-        "requirements": [
-          {
-            "condition": "block_state_property",
-            "block": "dirt_path"
-          }
-        ]
+        "requirements": {
+          "type": "match_block",
+          "blocks": "dirt_path"
+        }
       }
     ]
   }

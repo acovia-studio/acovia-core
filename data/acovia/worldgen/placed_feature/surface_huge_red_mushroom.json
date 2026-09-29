@@ -24,7 +24,7 @@
       "predicate": {
         "type": "minecraft:would_survive",
         "state": {
-          "Name": "minecraft:red_mushroom"
+          "id": "minecraft:red_mushroom"
         }
       }
     }

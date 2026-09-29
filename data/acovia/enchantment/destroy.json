@@ -66,7 +66,7 @@
           ]
         },
         "requirements": {
-          "condition": "entity_properties",
+          "type": "entity_properties",
           "entity": "this",
           "predicate": {
             "nbt": {
@@ -109,7 +109,7 @@
         "affected": "victim",
         "enchanted": "attacker",
         "requirements": {
-          "condition": "damage_source_properties",
+          "type": "damage_source_properties",
           "predicate": {
             "is_direct": false
           }

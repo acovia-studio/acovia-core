@@ -1,0 +1,152 @@
+{
+  "type": "tree",
+  "below_trunk_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "oak_log"
+    }
+  },
+  "trunk_provider": {
+    "type": "minecraft:simple",
+    "state": {
+      "id": "minecraft:oak_log",
+      "properties": {
+        "axis": "y"
+      }
+    }
+  },
+  "foliage_provider": {
+    "type": "minecraft:weighted",
+    "entries": [
+      {
+        "weight": 1,
+        "data": {
+          "id": "flowering_azalea_leaves"
+        }
+      },
+      {
+        "weight": 9,
+        "data": {
+          "id": "azalea_leaves"
+        }
+      }
+    ]
+  },
+  "foliage_placer": {
+    "type": "jungle_foliage_placer",
+    "height": 2,
+    "offset": 0,
+    "radius": 3
+  },
+  "trunk_placer": {
+    "base_height": 16,
+    "height_rand_a": 16,
+    "height_rand_b": 16,
+    "type": "mega_jungle_trunk_placer"
+  },
+  "root_placer": {
+    "trunk_offset_y": {
+      "type": "uniform",
+      "max_inclusive": 32,
+      "min_inclusive": 8
+    },
+    "type": "mangrove_root_placer",
+    "root_provider": {
+      "type": "minecraft:simple",
+      "state": {
+        "id": "minecraft:oak_log",
+        "properties": {
+          "axis": "y"
+        }
+      }
+    },
+    "mangrove_root_placement": {
+      "can_grow_through": [],
+      "max_root_length": 16,
+      "max_root_width": 12,
+      "muddy_roots_in": [],
+      "muddy_roots_provider": {
+        "type": "minecraft:simple",
+        "state": {
+          "id": "minecraft:dirt"
+        }
+      },
+      "random_skew_chance": 0.8
+    }
+  },
+  "minimum_size": {
+    "type": "minecraft:two_layers_feature_size"
+  },
+  "decorators": [
+    {
+      "type": "trunk_vine"
+    },
+    {
+      "type": "minecraft:alter_ground",
+      "provider": {
+        "type": "minecraft:rule_based",
+        "rules": [
+          {
+            "if_true": {
+              "type": "minecraft:matching_block_tag",
+              "tag": "minecraft:beneath_tree_podzol_replaceable"
+            },
+            "then": {
+              "type": "minecraft:simple",
+              "state": {
+                "id": "minecraft:moss_block"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "place_on_ground",
+      "radius": 4,
+      "block_state_provider": {
+        "type": "minecraft:rule_based",
+        "rules": [
+          {
+            "if_true": {
+              "type": "would_survive",
+              "state": {
+                "id": "moss_carpet"
+              }
+            },
+            "then": {
+              "type": "minecraft:simple",
+              "state": {
+                "id": "moss_carpet"
+              }
+            }
+          }
+        ]
+      }
+    },
+    {
+      "type": "place_on_ground",
+      "radius": 4,
+      "tries": 16,
+      "block_state_provider": {
+        "type": "minecraft:rule_based",
+        "rules": [
+          {
+            "if_true": {
+              "type": "would_survive",
+              "state": {
+                "id": "flowering_azalea"
+              }
+            },
+            "then": {
+              "type": "minecraft:simple",
+              "state": {
+                "id": "flowering_azalea"
+              }
+            }
+          }
+        ]
+      }
+    }
+  ]
+}

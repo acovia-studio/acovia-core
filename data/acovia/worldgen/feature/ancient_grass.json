@@ -1,0 +1,45 @@
+{
+  "type": "simple_block",
+  "to_place": {
+    "type": "rule_based",
+    "rules": [
+      {
+        "if_true": {
+          "type": "would_survive",
+          "state": {
+            "id": "tall_grass"
+          }
+        },
+        "then": {
+          "type": "minecraft:weighted",
+          "entries": [
+            {
+              "data": {
+                "id": "short_grass"
+              },
+              "weight": 20
+            },
+            {
+              "data": {
+                "id": "tall_grass"
+              },
+              "weight": 40
+            },
+            {
+              "data": {
+                "id": "fern"
+              },
+              "weight": 20
+            },
+            {
+              "data": {
+                "id": "bush"
+              },
+              "weight": 20
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
