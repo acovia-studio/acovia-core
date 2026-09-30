@@ -1,9 +1,9 @@
 {
     "pack": {
         "min_format": 0,
-        "max_format": [102, 0],
+        "max_format": [121, 0],
         "description": "Acovia minecraft server core datapack",
-        "supported_formats": [0, 102],
-        "pack_format": 102
+        "supported_formats": [0, 121],
+        "pack_format": 121
     }
 }
