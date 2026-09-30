@@ -1,26 +1,28 @@
 #!/bin/python3
-from pathlib import Path
+import os
 import json
 
-def ls(file,file_list=[]):
-    target = Path(file)
-    list = target.iterdir()
+def walk_dir(dirName, function):
+    dir_entry_list = os.walk(dirName)
+    for dir_entry_object in dir_entry_list:
+        for file_name in dir_entry_object[2]:
+            file_path = os.path.join(dir_entry_object[0], file_name)
+            if file_path.endswith(".json"):
+                print("formated json file:", file_path)
+                try:
+                    function(file_path)
+                except json.JSONDecodeError as err:
+                    print("with error when format json file:", file_path)
+                    print(err)
+                    exit(1)
 
-    for path in list:
-        if path.is_dir():
-            ls(path,file_list)
-        else:
-            file_list.append(path)
+def format_json(file_path):
+    file = open(file_path, "r", encoding="utf-8")
+    data = file.read()
+    file.close()
+    map_data = json.loads(data)
+    json_data = json.dumps(map_data, indent=2)
+    file = open(file_path, "w")
+    file.write(json_data)
 
-    return file_list
-
-list = ls('data')
-
-for path in list:
-    if path.name.endswith('.json'):
-        try:
-            data = json.loads(path.read_text())
-            path.write_text(json.dumps(data,indent=2))
-        except:
-            print('Found error in json file: ')
-            print(path)
+walk_dir(".", format_json)
