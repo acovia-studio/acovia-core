@@ -17,13 +17,12 @@
         "entity": "this",
         "predicate": {
           "minecraft:location": {
-            "dimension": "minecraft:overworld",
             "position": {
               "x": {
                 "min": -496,
                 "max": 496
               },
-              "y": {
+              "z": {
                 "min": -496,
                 "max": 496
               }
