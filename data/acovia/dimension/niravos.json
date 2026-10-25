@@ -4,8 +4,8 @@
     "type": "minecraft:noise",
     "settings": "minecraft:overworld",
     "biome_source": {
-      "type": "minecraft:multi_noise",
-      "preset": "overworld"
+      "type": "minecraft:fixed",
+      "biome": "acovia:ancient_forest"
     }
   }
 }
