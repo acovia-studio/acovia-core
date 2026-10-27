@@ -1,38 +1,38 @@
 {
-    "description": {
-        "text": "Imprison",
-        "color": "red"
-    },
-    "anvil_cost": 16,
-    "max_level": 1,
-    "weight": 1,
-    "min_cost": {
-        "base": 32,
-        "per_level_above_first": 16
-    },
-    "max_cost": {
-        "base": 64,
-        "per_level_above_first": 16
-    },
-    "supported_items": [
-        "minecraft:writable_book"
-    ],
-    "primary_items": [],
-    "slots": [
-        "mainhand",
-        "offhand"
-    ],
-    "exclusive_set": [],
-    "effects": {
-        "minecraft:post_attack": [
-            {
-                "effect": {
-                    "type": "run_function",
-                    "function": "acovia:enchantment/imprison"
-                },
-                "affected": "victim",
-                "enchanted": "attacker"
-            }
-        ]
-    }
+  "description": {
+    "text": "Imprison",
+    "color": "red"
+  },
+  "anvil_cost": 16,
+  "max_level": 1,
+  "weight": 1,
+  "min_cost": {
+    "base": 32,
+    "per_level_above_first": 16
+  },
+  "max_cost": {
+    "base": 64,
+    "per_level_above_first": 16
+  },
+  "supported_items": [
+    "minecraft:writable_book"
+  ],
+  "primary_items": [],
+  "slots": [
+    "mainhand",
+    "offhand"
+  ],
+  "exclusive_set": [],
+  "effects": {
+    "minecraft:post_attack": [
+      {
+        "effect": {
+          "type": "run_function",
+          "function": "acovia:enchantment/imprison"
+        },
+        "affected": "victim",
+        "enchanted": "attacker"
+      }
+    ]
+  }
 }
