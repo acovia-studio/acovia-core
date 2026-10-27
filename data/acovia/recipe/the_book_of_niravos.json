@@ -1,0 +1,100 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:book",
+    "minecraft:command_block"
+  ],
+  "result": {
+    "count": 1,
+    "id": "minecraft:written_book",
+    "components": {
+      "minecraft:max_stack_size": 1,
+      "rarity": "epic",
+      "item_model": "minecraft:enchanted_book",
+      "enchantment_glint_override": false,
+      "custom_data": {
+        "acovia:permission": true
+      },
+      "unbreakable": {},
+      "minecraft:written_book_content": {
+        "author": "Acovia",
+        "title": "The book of Niravos",
+        "pages": [
+          [
+            {
+              "text": "Y",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": "O",
+              "color": "#8f008f",
+              "bold": true,
+              "obfuscated": true
+            },
+            {
+              "text": "U",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": " W",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": "I",
+              "color": "#8f008f",
+              "bold": true,
+              "obfuscated": true
+            },
+            {
+              "text": "LL ",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": " F",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": "O",
+              "color": "#8f008f",
+              "bold": true,
+              "obfuscated": true
+            },
+            {
+              "text": "LL",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": "OW",
+              "color": "#8f008f",
+              "bold": true,
+              "obfuscated": true
+            },
+            {
+              "text": " ",
+              "color": "#4f002f",
+              "bold": true
+            },
+            {
+              "text": "ETERNITY",
+              "color": "#af0000",
+              "bold": true,
+              "obfuscated": true,
+              "strikethrough": true,
+              "click_event": {
+                "action": "run_command",
+                "command": "execute in acovia:niravos run spreadplayers 0 0 64 5120 false @s"
+              }
+            }
+          ]
+        ]
+      }
+    }
+  }
+}

@@ -1,5 +1,5 @@
 {
-  "type": "entity_properties",
+  "type": "minecraft:entity_properties",
   "entity": "this",
   "predicate": {
     "minecraft:equipment": {
@@ -11,13 +11,80 @@
           },
           "minecraft:written_book_content": {
             "author": "Acovia",
-            "title": "The Canon of Niravos",
+            "title": "The book of Niravos",
             "pages": [
-              {
-                "obfuscated": true,
-                "text": "bcc887724dee89cddf977f32c96c7ebf834bd41c03dad0ca22b9920ff8a02a57",
-                "color": "#7f007f"
-              }
+              [
+                {
+                  "text": "Y",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": "O",
+                  "color": "#8f008f",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "U",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": " W",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": "I",
+                  "color": "#8f008f",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "LL ",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": " F",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": "O",
+                  "color": "#8f008f",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": "LL",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": "OW",
+                  "color": "#8f008f",
+                  "bold": true,
+                  "obfuscated": true
+                },
+                {
+                  "text": " ",
+                  "color": "#4f002f",
+                  "bold": true
+                },
+                {
+                  "text": "ETERNITY",
+                  "color": "#af0000",
+                  "bold": true,
+                  "obfuscated": true,
+                  "strikethrough": true,
+                  "click_event": {
+                    "action": "run_command",
+                    "command": "execute in acovia:niravos run spreadplayers 0 0 64 5120 false @s"
+                  }
+                }
+              ]
             ]
           }
         }
