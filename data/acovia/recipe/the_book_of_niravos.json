@@ -24,67 +24,55 @@
           [
             {
               "text": "Y",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": "O",
-              "color": "#8f008f",
-              "bold": true,
+              "color": "#6f003f",
               "obfuscated": true
             },
             {
               "text": "U",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": " W",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": "I",
-              "color": "#8f008f",
-              "bold": true,
+              "color": "#6f003f",
               "obfuscated": true
             },
             {
               "text": "LL ",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": " F",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": "O",
-              "color": "#8f008f",
-              "bold": true,
+              "color": "#6f003f",
               "obfuscated": true
             },
             {
               "text": "LL",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": "OW",
-              "color": "#8f008f",
-              "bold": true,
+              "color": "#6f003f",
               "obfuscated": true
             },
             {
               "text": " ",
-              "color": "#4f002f",
-              "bold": true
+              "color": "#4f002f"
             },
             {
               "text": "ETERNITY",
               "color": "#af0000",
-              "bold": true,
               "obfuscated": true,
               "strikethrough": true,
               "click_event": {
