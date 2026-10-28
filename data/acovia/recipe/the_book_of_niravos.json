@@ -80,7 +80,7 @@
               "strikethrough": true,
               "click_event": {
                 "action": "run_command",
-                "command": "execute in acovia:niravos run spreadplayers 0 0 64 5120 false @s"
+                "command": "function acovia:enchantment/imprison"
               }
             }
           ]
