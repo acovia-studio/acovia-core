@@ -1,4 +1,4 @@
-advancement revoke @s only acovia:use_eroven
+function acovia:base/clear_advancements
 tellraw @a [{color:"aqua",type:"selector",selector:"@s"},{color:"aqua",text:" was pulled back from the brink of death by the rebirth flower"}]
 particle minecraft:end_rod ~ ~ ~ 0.24 0.24 0.24 0.3 256 force
 effect give @s minecraft:blindness 1 0 true
