@@ -1,3 +1,4 @@
+advancement revoke @s only acovia:use_rewind_scroll
 function acovia:base/clear_advancements
 particle minecraft:end_rod ~ ~ ~ 0.24 0.24 0.24 0.3 256 force
 effect give @s minecraft:blindness 1 0 true
