@@ -1,1 +1,0 @@
-give @s compass[lodestone_tracker={target:{dimension:"minecraft:overworld",pos:[I;0,0,0]},tracked:false}]

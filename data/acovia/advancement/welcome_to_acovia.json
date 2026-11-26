@@ -1,0 +1,10 @@
+{
+  "criteria": {
+    "back_acovia": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "rewards": {
+    "function": "acovia:item/rewind_scroll"
+  }
+}
