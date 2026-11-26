@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "back_acovia": {
+    "use_invitation": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {

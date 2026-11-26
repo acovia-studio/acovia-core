@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "back_acovia": {
+    "use_rewind_scroll": {
       "trigger": "minecraft:consume_item",
       "conditions": {
         "item": {

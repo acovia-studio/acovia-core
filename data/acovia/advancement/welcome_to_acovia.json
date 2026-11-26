@@ -1,6 +1,6 @@
 {
   "criteria": {
-    "back_acovia": {
+    "join_acovia": {
       "trigger": "minecraft:impossible"
     }
   },
