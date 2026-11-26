@@ -16,7 +16,7 @@
     "id": "minecraft:golden_spear",
     "components": {
       "item_name": {
-        "text": "\u9b54\u5bfc\u68d2",
+        "text": "Magic Rod",
         "color": "light_purple"
       },
       "item_model": "stick",

@@ -15,7 +15,7 @@
     "id": "minecraft:golden_shovel",
     "components": {
       "item_name": {
-        "text": "\u94fa\u8def\u68d2",
+        "text": "Make Way Rod",
         "color": "yellow"
       },
       "item_model": "minecraft:stick",
