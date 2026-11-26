@@ -6,7 +6,7 @@
         "item": {
           "components": {
             "custom_data": {
-              "acovia:back_acovia": true
+              "acovia:rewind_scroll": true
             }
           }
         }
