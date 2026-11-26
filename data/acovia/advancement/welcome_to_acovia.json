@@ -11,6 +11,6 @@
     "background": "block/redstone_block"
   },
   "rewards": {
-    "function": "acovia:base/join_acovia"
+    "function": "acovia:player/setup_new_player"
   }
 }

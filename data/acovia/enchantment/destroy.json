@@ -61,7 +61,7 @@
             },
             {
               "type": "run_function",
-              "function": "acovia:enchantment/destroy"
+              "function": "acovia:enchantment/destroy_arrow"
             }
           ]
         },
@@ -102,7 +102,7 @@
             },
             {
               "type": "run_function",
-              "function": "acovia:enchantment/destroy"
+              "function": "acovia:enchantment/destroy_arrow"
             }
           ]
         },

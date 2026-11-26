@@ -26,7 +26,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "acovia:enchantment/control_ai"
+          "function": "acovia:enchantment/toggle_mob_ai"
         }
       }
     ],

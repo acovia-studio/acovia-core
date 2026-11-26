@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "acovia:item/use_rewind_scroll"
+    "function": "acovia:item/on_use_rewind_scroll"
   }
 }

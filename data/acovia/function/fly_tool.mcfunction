@@ -1,1 +1,0 @@
-summon happy_ghast ~ ~ ~ {attributes:[{id:"minecraft:scale",base:0.2},{id:"minecraft:flying_speed",base:0.055}],Invulnerable:true,NoAI:true,Tags:[Acovia],Silent:true}

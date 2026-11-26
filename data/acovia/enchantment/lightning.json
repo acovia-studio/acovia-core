@@ -23,7 +23,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "acovia:enchantment/block_lightning"
+          "function": "acovia:enchantment/lightning_hit_block"
         },
         "requirements": {
           "type": "entity_properties",
@@ -42,7 +42,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "acovia:enchantment/lightning"
+          "function": "acovia:enchantment/strike_lightning"
         },
         "affected": "victim",
         "enchanted": "attacker",

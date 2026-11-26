@@ -14,6 +14,6 @@
     }
   },
   "rewards": {
-    "function": "acovia:item/use_invitation"
+    "function": "acovia:item/on_use_invitation"
   }
 }

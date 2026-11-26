@@ -80,7 +80,7 @@
               "strikethrough": true,
               "click_event": {
                 "action": "run_command",
-                "command": "function acovia:enchantment/imprison"
+                "command": "function acovia:enchantment/imprison_target"
               }
             }
           ]

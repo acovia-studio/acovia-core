@@ -46,7 +46,7 @@
             },
             {
               "type": "run_function",
-              "function": "acovia:enchantment/explode"
+              "function": "acovia:enchantment/explode_arrow"
             }
           ]
         },
@@ -83,7 +83,7 @@
             },
             {
               "type": "run_function",
-              "function": "acovia:enchantment/explode"
+              "function": "acovia:enchantment/explode_arrow"
             }
           ]
         },

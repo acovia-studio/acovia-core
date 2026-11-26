@@ -28,7 +28,7 @@
       {
         "effect": {
           "type": "run_function",
-          "function": "acovia:enchantment/imprison"
+          "function": "acovia:enchantment/imprison_target"
         },
         "affected": "victim",
         "enchanted": "attacker"
