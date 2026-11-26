@@ -1,1 +1,1 @@
-give @s enchanted_book[item_name={"text":"Invitation", color:"aqua"}, item_model="nether_star", enchantment_glint_override=true, consumable={consume_seconds:1, sound:"item.book.page_turn", animation:"none"}, custom_data={"acovia:invitation": true}, max_stack_size=1]
+give @s enchanted_book[item_name={"text":"Invitation", color:"aqua"}, item_model="nether_star", enchantment_glint_override=true, consumable={consume_seconds:1, sound:"item.book.page_turn", animation:"none", has_consume_particles:false}, custom_data={"acovia:invitation": true}, max_stack_size=1]
