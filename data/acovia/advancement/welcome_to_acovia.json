@@ -4,7 +4,13 @@
       "trigger": "minecraft:impossible"
     }
   },
+  "display": {
+    "description": "Join Acovia!",
+    "title": "Welcome To Acovia!",
+    "icon": "nether_star",
+    "background": "block/redstone_block"
+  },
   "rewards": {
-    "function": "acovia:item/rewind_scroll"
+    "function": "acovia:base/join_acovia"
   }
 }
