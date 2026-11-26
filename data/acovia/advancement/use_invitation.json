@@ -1,0 +1,19 @@
+{
+  "criteria": {
+    "back_acovia": {
+      "trigger": "minecraft:consume_item",
+      "conditions": {
+        "item": {
+          "components": {
+            "custom_data": {
+              "acovia:invitation": true
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "acovia:item/use_invitation"
+  }
+}

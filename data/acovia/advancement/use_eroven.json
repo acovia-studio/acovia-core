@@ -17,6 +17,6 @@
     }
   },
   "rewards": {
-    "function": "acovia:item/eroven"
+    "function": "acovia:item/use_eroven"
   }
 }
