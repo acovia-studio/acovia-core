@@ -1,1 +1,0 @@
-give @s lectern[lock={items:"debug_stick"}]
